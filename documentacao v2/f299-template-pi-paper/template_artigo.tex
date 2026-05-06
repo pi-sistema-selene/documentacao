@@ -1,0 +1,79 @@
+%%%% fatec-article.tex, 2024/03/10
+
+%% Classe de documento
+\documentclass[
+  a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
+  12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
+  english,%% Idioma secundário (penúltimo) (>)
+  brazilian,%% Idioma primário (último) (>)
+]{article}
+
+%% Pacotes utilizados
+\usepackage[]{fatec-article}
+
+\Author{1}{Name={Lucas de Barros Parada\\Paulo Seiji Yamamoto Junior\\Filipe de Oliveira Lima\\Bruno de Lucca Soares Miranda}}
+
+\Author{2}{Name={\{ lucas.parada@fatec.sp.gov.br \}\\ \{ paulo.yamamoto01@fatec.sp.gov.br \} \\ \{ filipe.lima18@fatec.sp.gov.br\} \\ \{ bruno.miranda19@fatec.sp.gov.br \}}}
+
+%% Definição das palavras-chaves/keywords
+\Keyword{1}{Aprendizagem Profunda}{Deep Learning}
+\Keyword{2}{Cogumelos}{Mushrooms}
+\Keyword{3}{Internet das Coisas}{Internet of Things}
+
+%%%% Resumo no idioma primário (brazilian)
+\begin{Abstract}[brazilian]%% Idioma (brazilian ou english)
+O aumento no número de infecções em plantações de cogumelos tem levado produtores a investir em estratégias mais eficazes de monitoramento e controle. Diante desse cenário, este projeto propõe o desenvolvimento de um sistema inteligente voltado ao acompanhamento do cultivo de cogumelos, integrando sensores ambientais e técnicas de inteligência artificial. O sistema realiza o monitoramento em tempo real de variáveis como umidade, temperatura e possíveis focos de infecção, utilizando câmeras para detectar anomalias visuais, como manchas e alterações de cor. Para aprimorar a precisão das análises, o sistema emprega algoritmos de aprendizagem profunda, capazes de reconhecer padrões complexos e gerar resultados mais confiáveis sobre o estado das culturas. Ao identificar sinais de contaminação, o sistema emite alertas automáticos e fornece suporte à tomada de decisão do produtor. Dessa forma, busca-se reduzir perdas, otimizar o manejo produtivo e fomentar a inovação tecnológica no setor da fungicultura.
+\end{Abstract}
+
+%%%% Resumo no idioma secundário (english)
+\begin{Abstract}[english]%% Idioma (brazilian ou english)
+The increase in infections in mushroom crops has led producers to invest in more effective monitoring and control strategies. In this context, this project proposes the development of an intelligent system aimed at monitoring mushroom cultivation by integrating environmental sensors and artificial intelligence techniques. The system performs real-time monitoring of variables such as humidity, temperature, and possible infection sources, using cameras to detect visual anomalies such as spots and color changes. To improve analytical accuracy, the system employs deep learning algorithms capable of recognizing complex patterns and generating more reliable results regarding the condition of the crops. Upon detecting signs of contamination, the system issues automatic alerts and supports the producer in decision-making. Thus, it seeks to reduce losses, optimize production management, and promote technological innovation in the mushroom cultivation sector.
+\end{Abstract}
+
+%% Processamento de entradas (itens) do índice remissivo (makeindex)
+\makeindex%
+
+%% Arquivo(s) de referências
+\addbibresource{Ref.bib}
+
+%% Início do documento
+\begin{document}
+
+% Seções e subseções
+
+%\section{}%
+
+%\subsection{Título de Seção Secundária}%
+
+%\subsubsection{Título de Seção Terciária}%
+
+%\paragraph{Título de seção quaternária}%
+
+%\subparagraph{Título de seção quinária}%
+
+\section*{Introdução}%
+\label{sect:intro}
+\input{Topicos/introducao}
+
+\section*{OBJETIVOS} \label{sect:obj}
+
+\input{Topicos/objetivo}
+
+\section*{ESTADO DA ARTE} \label{sect:estadoarte}
+
+\input{Topicos/estadodaarte}
+
+\section*{METODOLOGIA} \label{sect:metodologia}
+
+\input{Topicos/metodologia}
+
+
+\printbibliography
+
+
+%% Elementos pós-textuais (opcionais): Apêndice e Anexo
+%Caso for utilizar, basta retirar o símbolo de % na frente do comando
+%\input{./Extras/post-textual}
+
+%% Fim do documento
+\end{document}
