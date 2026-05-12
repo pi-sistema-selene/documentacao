@@ -159,17 +159,14 @@
   }%
 }
 \ifbool{@FontCalibri}{\RequirePackage[sfdefault, lining, tabular]{carlito}}{}
+\RequirePackage[table, xcdraw]{xcolor}
 \RequirePackage{fontawesome5}
 \RequirePackage{microtype}
 \RequirePackage{ragged2e}
 \RequirePackage[overload]{textcase}
 \RequirePackage{csquotes}
 \RequirePackage{lipsum}
-\@ifpackageloaded{xcolor}{%
-  \@ifpackagewith{xcolor}{table, xcdraw}{}{\RequirePackage[table, xcdraw]{xcolor}}%
-}{%
-  \RequirePackage[table, xcdraw]{xcolor}%
-}
+
 \RequirePackage[\ifdraft{showframe}{}]{geometry}
 \ifbool{@LayoutA}{\RequirePackage{scrextend}}{}
 \RequirePackage{indentfirst}
@@ -617,7 +614,7 @@
       \begin{minipage}[t]{\textwidth}%
       \begin{minipage}[b][15mm][c]{35mm}%
       \raggedright%
-      \includegraphics[height = 35mm]{fatec}%
+      \includegraphics[height = 35mm]{fatec.jpg}%
       \end{minipage}%
       \ifcsvoid{InstDeptLogo}{{\color{fatecBlack}\vrule\@width0.5\p@}\hskip6\p@}{\ifbool{@LayoutA}{\hfill}{}}%
       \begin{minipage}[b][15mm][c]{100mm}%

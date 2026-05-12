@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{MarceloBellettini2027}{article}{}{}
+    \entry{Bellettini2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -29,9 +29,6 @@
            given={Marcelo\bibnamedelima B.},
            giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Revista Argentina de Microbiología}%
       }
       \strng{namehash}{4ec25c7e753f9d64c7bdeddddf4b3052}
       \strng{fullhash}{4ec25c7e753f9d64c7bdeddddf4b3052}
@@ -47,6 +44,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Argentina de Microbiología}
       \field{title}{Diseases and pests noxious to Pleurotus spp. mushroom crops}
       \field{year}{2017}
       \verb{urlraw}
@@ -56,76 +54,32 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0325754117301505
       \endverb
     \endentry
-    \entry{MetlekCetiner2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=eff25d751838717cd6c0bd8b47ddedee}{%
-           family={METLEK},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=db1445a9b48aeed3d0cf74fe197f2db0}{%
-           family={ÇETINER},
-           familyi={Ç\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{2}{%
-        {International Journal of Innovative Research in Computer Science}%
-        {Technology}%
-      }
-      \strng{namehash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{fullhash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{fullhashraw}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{bibnamehash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{authorbibnamehash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{authornamehash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{authorfullhash}{33a1b077b5f7bec05ea300d6588b8c59}
-      \strng{authorfullhashraw}{33a1b077b5f7bec05ea300d6588b8c59}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mushroom Classification Using Machine Learning Algorithms}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.academia.edu/download/105859901/966.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.academia.edu/download/105859901/966.pdf
-      \endverb
-    \endentry
-    \entry{MOYSIADIS2023}{article}{}{}
+    \entry{Moysiadis2023}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=736b4129ed09155dd94ca3071f0ca0f6}{%
-           family={MOYSIADIS},
+        {{un=0,uniquepart=base,hash=cf0dad85a46671a198266a971a33e09a}{%
+           family={Moysiadis},
            familyi={M\bibinitperiod},
            given={Vasileios},
            giveni={V\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {MDPI}%
-      }
-      \strng{namehash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{fullhash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{fullhashraw}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{bibnamehash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{authorbibnamehash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{authornamehash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{authorfullhash}{116d7ab07d2fb1a18186a9681162e9f7}
-      \strng{authorfullhashraw}{116d7ab07d2fb1a18186a9681162e9f7}
+      \strng{namehash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{fullhash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{fullhashraw}{6c41b88cc9b382593d8a757e31089266}
+      \strng{bibnamehash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{authorbibnamehash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{authornamehash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{authorfullhash}{6c41b88cc9b382593d8a757e31089266}
+      \strng{authorfullhashraw}{6c41b88cc9b382593d8a757e31089266}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{MDPI}
       \field{title}{Monitoring Mushroom Growth with Machine Learning}
       \field{year}{2023}
       \verb{urlraw}
@@ -135,34 +89,67 @@
       \verb https://ui.adsabs.harvard.edu/abs/2023Agric..13..223M/abstract
       \endverb
     \endentry
+    \entry{Nuankaew2025}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fbcdaa6bea59a881743e6617a191bc1}{%
+           family={Nuankaew},
+           familyi={N\bibinitperiod},
+           given={Wongpanya\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{604b2558306928554603885a12e56938}
+      \strng{fullhash}{604b2558306928554603885a12e56938}
+      \strng{fullhashraw}{604b2558306928554603885a12e56938}
+      \strng{bibnamehash}{604b2558306928554603885a12e56938}
+      \strng{authorbibnamehash}{604b2558306928554603885a12e56938}
+      \strng{authornamehash}{604b2558306928554603885a12e56938}
+      \strng{authorfullhash}{604b2558306928554603885a12e56938}
+      \strng{authorfullhashraw}{604b2558306928554603885a12e56938}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Digital Arts, Media and Technology (DAMT) / ECTI Northern Section Conference on Electrical, Electronics, Computer and Telecommunications Engineering (NCON)}
+      \field{title}{Harnessing AI for Agriculture: Oyster Mushroom Disease Detection with IoT and Web Application on Growing Bags Using Deep Learning}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1109/ECTIDAMTNCON64748.2025.10962000
+      \endverb
+    \endentry
     \entry{Rahman2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ae639738e2484e90260ceaa0bbd22006}{%
-           family={RAHMAN},
+        {{un=0,uniquepart=base,hash=59a51fa37bd4fdf50bac649388663fd2}{%
+           family={Rahman},
            familyi={R\bibinitperiod},
            given={Hasibur},
            giveni={H\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{fullhash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{fullhashraw}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{bibnamehash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{authorbibnamehash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{authornamehash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{authorfullhash}{43f9a6a7e3abd2b03c8f2819f16c8483}
-      \strng{authorfullhashraw}{43f9a6a7e3abd2b03c8f2819f16c8483}
+      \strng{namehash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{fullhash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{fullhashraw}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{bibnamehash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{authorbibnamehash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{authornamehash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{authorfullhash}{2ea8c4f759df8cc7ed903782d8bb2b15}
+      \strng{authorfullhashraw}{2ea8c4f759df8cc7ed903782d8bb2b15}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Elsevier}
       \field{title}{IoT Enabled Mushroom Farm Automation with Machine Learning to Classify Toxic Mushrooms in Bangladesh}
       \field{year}{2021}
       \verb{urlraw}
@@ -172,7 +159,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S2666154321001691
       \endverb
     \endentry
-    \entry{RicardoScheffer2023}{article}{}{}
+    \entry{Scheffer2023}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=73c74651545c1cc259e1f7df5cfb1569}{%
            family={Scheffer},
@@ -181,8 +168,8 @@
            giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {UNIVERSIDADE FEDERAL DO PARANÁ}%
+      \list{institution}{1}{%
+        {Universidade Federal do Paraná}%
       }
       \strng{namehash}{73c74651545c1cc259e1f7df5cfb1569}
       \strng{fullhash}{73c74651545c1cc259e1f7df5cfb1569}
@@ -198,6 +185,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
       \field{title}{Controle de contaminações durante o cultivo e pós-colheita de cogumelos comestíveis}
       \field{year}{2023}
       \verb{urlraw}

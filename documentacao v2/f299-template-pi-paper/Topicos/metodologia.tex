@@ -1,26 +1,22 @@
-Para a construção do sistema proposto, será implementada uma arquitetura de inteligência artificial baseada em aprendizado profundo (Deep Learning), atuando como núcleo analítico do processo de monitoramento e detecção automatizada. O sistema integrará sensores ópticos (câmeras de alta resolução) e sensores ambientais de temperatura e umidade relativa, interligados por uma infraestrutura IoT (Internet of Things), responsável pela aquisição contínua e transmissão dos dados provenientes das estufas de cultivo.
+Para a construção do sistema proposto, será implementada uma arquitetura de inteligência artificial baseada em aprendizado profundo (Deep Learning), atuando como núcleo analítico do processo de monitoramento e detecção automatizada. O sistema integrará sensores ópticos (câmeras com microcontrolador integrado) e sensores ambientais de temperatura, umidade relativa e luminosidade, interligados por uma infraestrutura IoT (Internet of Things), responsável pela aquisição contínua e transmissão dos dados provenientes das estufas de cultivo.
 
-Durante o processo de coleta, múltiplos fluxos de vídeo serão capturados em tempo real e posteriormente submetidos a uma etapa de pré-processamento automatizado, que inclui segmentação temporal, conversão de vídeo em frames e extração de características visuais. Os frames resultantes serão indexados e armazenados em um banco de dados não relacional, garantindo integridade e disponibilidade para uso posterior em tarefas de treinamento e validação de modelos.
+Durante o processo de coleta, múltiplos fluxos de imagem (bloco 1) e dados ambientais (bloco 2) serão capturados em tempo real, encaminhados para o sistema via Wi-Fi (blocos 3 e 4), indexados e armazenados em um banco de dados não relacional (blocos 5 e 6), garantindo integridade e disponibilidade para uso posterior em tarefas de treinamento e validação de modelos.
 
 O conjunto de imagens coletadas comporá o dataset primário para o treinamento supervisionado da IA. O modelo de aprendizado profundo, baseado em redes neurais, será configurado para detecção de padrões morfológicos e análises de variações de coloração e textura, possibilitando a classificação automatizada dos estágios de crescimento e a identificação precoce de anomalias nos compostos.
 
 Essa abordagem possibilita a criação de um sistema autônomo e adaptativo, capaz de realizar inferência em tempo real, monitorar o desenvolvimento dos cogumelos com alta precisão e fornecer alertas preditivos ao produtor sobre possíveis contaminações ou irregularidades no ambiente de cultivo.
 
-\begin{figure}[!h]
-    \centering
-    \SetCaptionWidth{\ifbool{@LayoutA}{0.7}{0.72}\linewidth}
-    \caption{Fluxograma}% 
-    \includegraphics[width = 300px]{fluxograma.drawio.png}
-    \SourceOrNote{Draw.io 2025}
+\begin{figure}[!ht]
+\centering
+\SetCaptionWidth{\ifbool{@LayoutA}{0.7}{0.72}\linewidth}
+\caption{Fluxograma da metodologia adotada para desenvolvimento do sistema para detecção de parasitas em cogumelos}
+\includegraphics[width = 450px]{fluxograma.drawio.png}
+\SourceOrNote{Autoria própria, 2026}
 \end{figure}
 
-Durante o funcionamento em ambiente real, o sistema executa o processamento em tempo real de vídeo, capturando aproximadamente 60 frames por minuto (Blocos F → G). Cada frame é enviado ao modelo de IA, que realiza a inferência instantânea e gera uma estimativa probabilística de contaminação com base em características morfológicas detectadas. Quando um evento anômalo é identificado — como a presença de fungos invasores ou alterações visuais atípicas — o sistema gera alertas automáticos (Blocos H e I), notificando o produtor por meio do aplicativo integrado. Com isso o software foi projetado para operar em duas instâncias interconectadas:
+Durante o funcionamento em ambiente real, o sistema executa o processamento em tempo real de imagem, capturando aproximadamente 1 frame por minuto (bloco 7). Cada frame é enviado ao modelo de IA, que realiza a inferência instantânea e gera uma estimativa probabilística de contaminação com base em características morfológicas detectadas. Quando um evento anômalo é identificado — como a presença de fungos invasores ou alterações visuais atípicas — o sistema gera alertas automáticos (bloco 8), notificando o produtor por meio do aplicativo integrado. Da mesma forma, os dados de avaliação da imagem são salvos no banco de dados. O software foi projetado para operar em uma aplicação mobile, destinada ao monitoramento em tempo real do ambiente de cultivo, exibição de alertas, acompanhimento de métricas de umidade, temperatura e iluminação, e consulta de painéis analíticos dinâmicos com gráficos de desempenho.
 
-- Aplicação mobile, destinada ao monitoramento em tempo real do ambiente de cultivo, exibição de alertas, acompanhamento de métricas de umidade, temperatura e iluminação, e consulta de painéis analíticos dinâmicos com gráficos de desempenho.
-
-- Aplicação desktop, voltada à administração avançada do sistema, com recursos para cadastro de sensores e câmeras, análise histórica de dados, ajuste de parâmetros operacionais e gerenciamento do modelo de IA (retraining, atualização e validação de inferências).
-
-A comunicação entre as instâncias é realizada via API RESTful, permitindo sincronização contínua de dados e emissão de relatórios automáticos diários com informações sobre a saúde dos compostos, eficiência ambiental e status de contaminação. Essa integração garante que o produtor disponha de feedbacks em tempo real sobre o estado de suas produções e insumos preditivos para otimização de recursos e prevenção de perdas.
+A comunicação entre as instâncias é realizada via API RESTful, permitindo sincronização contínua de dados e emissão de relatórios automáticos com informações sobre a saúde dos compostos, eficiência ambiental e status de contaminação. Essa integração garante que o produtor disponha de feedbacks em tempo real sobre o estado de suas produções e insumos preditivos para otimização de recursos e prevenção de perdas.
 
 Como resultado, o sistema fornece uma plataforma inteligente e autônoma de monitoramento preditivo de fungicultura, combinando visão computacional, IoT e aprendizado profundo em uma arquitetura escalável, voltada à melhoria da produtividade, qualidade e sustentabilidade dos cultivos de Pleurotus ostreatus (shimeji).
 
