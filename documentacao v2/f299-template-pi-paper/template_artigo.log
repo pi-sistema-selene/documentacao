@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.22)  11 MAY 2026 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.22)  15 MAY 2026 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1281,7 +1281,7 @@ Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 4.
 [1{C:/Users/Erlon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
  <./Illustrations/fatec.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 13.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 15.
  (C:\Users\Erlon\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1294,7 +1294,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 [2{C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (Topicos/estadodaarte.tex
 
 [3]) (Topicos/metodologia.tex
-<./Illustrations/fluxograma.drawio.png, id=53, 676.02562pt x 284.56313pt>
+<./Illustrations/fluxograma.drawio.png, id=52, 676.02562pt x 284.56313pt>
 File: ./Illustrations/fluxograma.drawio.png Graphic file (type png)
 <use ./Illustrations/fluxograma.drawio.png>
 Package pdftex.def Info: ./Illustrations/fluxograma.drawio.png  used on input line 13.
@@ -1314,11 +1314,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 Package cleveref Info: loaded `brazilian' language definitions on input line 71.
-Package cleveref Info: loaded `brazilian' language definitions on input line 71.
-Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 
 
 [5 <./Illustrations/fluxograma.drawio.png>]
+Package cleveref Info: loaded `brazilian' language definitions on input line 71.
+Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 Package cleveref Info: loaded `brazilian' language definitions on input line 71.
 
@@ -1353,15 +1353,15 @@ Package logreq Info: Writing requests to 'template_artigo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34353 strings out of 468081
- 623149 string characters out of 5425788
+ 34355 strings out of 468081
+ 623173 string characters out of 5425788
  1630647 words of memory out of 5000000
  62421 multiletter control sequences out of 15000+600000
- 675778 words of font info for 138 fonts, out of 8000000 for 9000
+ 675894 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,19n,131p,1785b,4564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on template_artigo.pdf (6 pages, 266456 bytes).
+Output written on template_artigo.pdf (6 pages, 266854 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

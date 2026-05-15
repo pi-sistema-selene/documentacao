@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber template_artigo"] 1778503651.01568 "template_artigo.bcf" "template_artigo.bbl" "template_artigo" 1778504500.45455 0
+["biber template_artigo"] 1778503651.01568 "template_artigo.bcf" "template_artigo.bbl" "template_artigo" 1778865738.88447 0
   "Ref.bib" 1778503649 2150 f7848c6620535b4985b014f23f8c4887 ""
-  "template_artigo.bcf" 1778504499 114546 c6c6852bb19bd8be3d2f9a7fd2721ec5 "pdflatex"
+  "template_artigo.bcf" 1778865738 114546 c6c6852bb19bd8be3d2f9a7fd2721ec5 "pdflatex"
   (generated)
   "template_artigo.bbl"
   "template_artigo.blg"
   (rewritten before read)
-["pdflatex"] 1778504494.04058 "c:/Users/Erlon/Desktop/DSM4 - Artigo/documentacao/documentacao v2/f299-template-pi-paper/template_artigo.tex" "template_artigo.pdf" "template_artigo" 1778504500.45603 0
+["pdflatex"] 1778865735.59637 "c:/Users/Erlon/Desktop/DSM4 - Artigo/documentacao/documentacao v2/f299-template-pi-paper/template_artigo.tex" "template_artigo.pdf" "template_artigo" 1778865738.88678 0
   "C:/Users/Erlon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761691664 123976 72b5a7d7975bba47276c9ad4e01a7673 ""
   "C:/Users/Erlon/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761134785 13321623 48c67509cc9a157110e4cf1d86d46da7 ""
   "C:/Users/Erlon/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -184,15 +184,15 @@
   "Illustrations/fatec.jpg" 1778500658 52462 b72184f489d14cab2f4098401c2496e6 ""
   "Illustrations/fluxograma.drawio.png" 1778502717 51946 07dd9201e3280c9c317e3d5cdb6f09b2 ""
   "Topicos/estadodaarte.tex" 1778502256 4435 dcdbcf887a9938b1255b9aac1b751571 ""
-  "Topicos/introducao.tex" 1778502470 4882 5926c81f4ab943b13f875df6ec72bf3d ""
+  "Topicos/introducao.tex" 1778865724 5284 3167ab228c4d89f40d5ffccac287b72f ""
   "Topicos/metodologia.tex" 1778503744 3705 2a8896b0a06bba8daeb43ef11e6d3c06 ""
   "Topicos/objetivo.tex" 1778454121 1197 0e9d1955a7e4f593015c467f37a14a03 ""
   "c:/Users/Erlon/Desktop/DSM4 - Artigo/documentacao/documentacao v2/f299-template-pi-paper/template_artigo.tex" 1778501230 4082 1cba21974da3285e20a29aab8f8f3968 ""
-  "fatec-article.sty" 1778504481 46598 c599ad7d6d6340b578062686855b11ab ""
-  "template_artigo.aux" 1778504499 3326 1cae4de31bb96d5dfab77f6f179feca0 "pdflatex"
+  "fatec-article.sty" 1778505304 46598 c599ad7d6d6340b578062686855b11ab ""
+  "template_artigo.aux" 1778865738 3326 b395b03461d588ac251291609b8131a5 "pdflatex"
   "template_artigo.bbl" 1778503655 9785 55a868ee79f2c5f15621b05f1c27a3e1 "biber template_artigo"
-  "template_artigo.out" 1778504499 235 a06c2cb76788e69eb0ecc898c2445f5e "pdflatex"
-  "template_artigo.run.xml" 1778504499 2614 336705a7316d559149aee2275c5e4557 "pdflatex"
+  "template_artigo.out" 1778865738 235 a06c2cb76788e69eb0ecc898c2445f5e "pdflatex"
+  "template_artigo.run.xml" 1778865738 2614 336705a7316d559149aee2275c5e4557 "pdflatex"
   "template_artigo.tex" 1778501230 4082 1cba21974da3285e20a29aab8f8f3968 ""
   (generated)
   "template_artigo.aux"
